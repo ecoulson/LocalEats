@@ -1,0 +1,13 @@
+body,
+html {
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  max-height: 853;
+  width: 100vw;
+  background-image: url("./public/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
