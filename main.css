@@ -11,3 +11,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.title {
+  margin: 0;
+  font-size: 78px;
+  padding-top: 48px;
+  letter-spacing: 0.25rem;
+  text-align: center;
+  font-family: "oregano";
+  margin-bottom: 39px;
+}
