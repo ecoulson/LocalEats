@@ -32,10 +32,11 @@
           Join our mailing list to get updates and be notified when LetsEat goes
           live!
         </p>
-        <form class="mailing-list-form">
+        <form name="mailing-list" class="mailing-list-form">
           <label class="form-label" for="email">Email</label>
           <input
             type="email"
+            name="email"
             autocomplete="email"
             id="email"
             placeholder="Enter your email"
@@ -48,5 +49,9 @@
       <section id="contact-us"></section>
     </main>
     <footer></footer>
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script src="main.js"></script>
   </body>
 </html>
