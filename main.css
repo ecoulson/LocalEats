@@ -35,9 +35,12 @@ header {
   margin-bottom: 20vh;
 }
 
-.mailing-list-button {
-  border: none;
+.button-mailing-list {
   background-color: #007fff;
+}
+
+.button {
+  border: none;
   color: white;
   width: 275px;
   margin: 0 auto;
@@ -47,6 +50,7 @@ header {
   border-radius: 15px;
   height: 70px;
   letter-spacing: -0.05rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .arrow {
@@ -71,6 +75,61 @@ header {
   border-bottom: 3px solid white;
   border-right: 3px solid white;
   top: 16px;
+}
+
+#mailing-list {
+  background-color: #0ead69;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+.mailing-list-text {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+.mailing-list-form {
+  margin-top: 44px;
+  display: block;
+  padding-bottom: 38px;
+}
+
+.form-label {
+  display: block;
+  color: white;
+  padding-left: 13px;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+#email {
+  width: 100%;
+  border: 2px solid white;
+  padding: 11px 13px;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 21px;
+  outline: none;
+}
+
+#email::placeholder {
+  color: white;
+}
+
+.button-submit {
+  background-color: #e8c547;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  height: 48px;
 }
 
 @keyframes arrow-animation {

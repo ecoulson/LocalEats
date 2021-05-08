@@ -20,14 +20,29 @@
         At LetsEat, our goal is to make home-cooked meals easy, affordable, and
         sustainable.
       </p>
-      <button class="mailing-list-button">Join Mailing List</button>
+      <button class="button button-mailing-list">Join Mailing List</button>
       <div class="arrow">
         <div class="line"></div>
         <span class="head"></span>
       </div>
     </header>
     <main>
-      <section id="mailing-list"></section>
+      <section id="mailing-list">
+        <p class="mailing-list-text">
+          Join our mailing list to get updates and be notified when LetsEat goes
+          live!
+        </p>
+        <form class="mailing-list-form">
+          <label class="form-label" for="email">Email</label>
+          <input
+            type="email"
+            autocomplete="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <button class="button button-submit" type="submit">Subscribe</button>
+        </form>
+      </section>
       <section id="mission"></section>
       <section id="solutions"></section>
       <section id="contact-us"></section>
