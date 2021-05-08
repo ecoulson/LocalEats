@@ -6,21 +6,24 @@ html {
 
 header {
   height: 100vh;
-  max-height: 900px;
+  max-height: 100%;
   width: 100vw;
   background-image: url("./public/header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 20vh;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 .title {
   margin: 0;
   font-size: 78px;
-  padding-top: 48px;
+  padding-top: 10px;
   letter-spacing: 0.25rem;
   text-align: center;
   font-family: "oregano", cursive;
-  margin-bottom: 39px;
+  margin-bottom: 90px;
 }
 
 .goal {
@@ -31,7 +34,7 @@ header {
   border-bottom: 2px solid black;
   text-align: center;
   line-height: 125%;
-  margin-bottom: 180px;
+  margin-bottom: 20vh;
 }
 
 .mailing-list-button {
@@ -46,4 +49,40 @@ header {
   border-radius: 15px;
   height: 70px;
   letter-spacing: -0.05rem;
+}
+
+.arrow {
+  position: relative;
+  margin-top: 20vh;
+  animation: arrow-animation 4s ease 0s infinite;
+}
+
+.line {
+  position: absolute;
+  height: 40px;
+  left: 50%;
+  border-left: 3px solid white;
+}
+
+.head {
+  position: absolute;
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+  left: calc(50% - 10px);
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  top: 16px;
+}
+
+@keyframes arrow-animation {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
