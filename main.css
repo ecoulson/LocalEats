@@ -4,6 +4,11 @@ html {
   font-family: "Libre Franklin", sans-serif;
 }
 
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 header {
   height: 100vh;
   max-height: 100%;
@@ -81,6 +86,10 @@ header {
   background-color: #0ead69;
   padding: 0 32px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
 }
 
 .mailing-list-text {
@@ -118,6 +127,24 @@ header {
   box-sizing: border-box;
   margin-bottom: 21px;
   outline: none;
+}
+
+#mission {
+  background-color: #e5e5e5;
+  padding: 35px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.mission-statement {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+  text-align: center;
 }
 
 #email::placeholder {

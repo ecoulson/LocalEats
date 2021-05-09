@@ -15,38 +15,59 @@
   </head>
   <body>
     <header>
-      <img src="public/logo.svg" class="title" />
-      <p class="goal">
-        At LetsEat, our goal is to make home-cooked meals easy, affordable, and
-        sustainable.
-      </p>
-      <button class="button button-mailing-list">Join Mailing List</button>
-      <div class="arrow">
-        <div class="line"></div>
-        <span class="head"></span>
+      <div class="container">
+        <img src="public/logo.svg" class="title" />
+        <p class="goal">
+          At LetsEat, our goal is to make home-cooked meals easy, affordable,
+          and sustainable.
+        </p>
+        <button class="button button-mailing-list">Join Mailing List</button>
+        <div class="arrow">
+          <div class="line"></div>
+          <span class="head"></span>
+        </div>
       </div>
     </header>
     <main>
       <section id="mailing-list">
-        <p class="mailing-list-text">
-          Join our mailing list to get updates and be notified when LetsEat goes
-          live!
-        </p>
-        <form name="mailing-list" class="mailing-list-form">
-          <label class="form-label" for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            autocomplete="email"
-            id="email"
-            placeholder="Enter your email"
-          />
-          <button class="button button-submit" type="submit">Subscribe</button>
-        </form>
+        <div class="container">
+          <p class="mailing-list-text">
+            Join our mailing list to get updates and be notified when LetsEat
+            goes live!
+          </p>
+          <form name="mailing-list" class="mailing-list-form">
+            <label class="form-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              autocomplete="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <button class="button button-submit" type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
       </section>
-      <section id="mission"></section>
-      <section id="solutions"></section>
-      <section id="contact-us"></section>
+      <section id="mission">
+        <div class="container">
+          <p class="mission-statement">
+            Our mission at LetsEat is to eliminate food and energy waste in the
+            food distribution pipeline. Supermarkets produce a substantial
+            amount of food and energy waste by cooling and heating large amounts
+            of food thrown out. The factory farms that supply them are
+            responsible for a significant portion of the green houses gases
+            accountable. Here is how we are resolving these problems.
+          </p>
+        </div>
+      </section>
+      <section id="solutions">
+        <div class="container"></div>
+      </section>
+      <section id="contact-us">
+        <div class="container"></div>
+      </section>
     </main>
     <footer></footer>
     <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
