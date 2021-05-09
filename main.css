@@ -26,7 +26,7 @@ header {
   display: block;
   padding-top: 10px;
   margin-bottom: 40px;
-  width: 350px;
+  width: 100px;
 }
 
 .goal {
@@ -169,4 +169,63 @@ header {
   100% {
     transform: translateY(-20px);
   }
+}
+
+#solutions {
+  background-color: black;
+  padding: 35px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.solution-header {
+  display: flex;
+  align-items: center;
+}
+
+.solution-icon-container {
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solution-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.solution-name {
+  color: white;
+  font-size: 48px;
+  letter-spacing: 2.5%;
+  margin: 0;
+  margin-left: 22px;
+  font-weight: 400;
+}
+
+.solution-text {
+  font-size: 20px;
+  letter-spacing: 2.5%;
+  line-height: 150%;
+  color: white;
+}
+
+.solution-icon-local {
+  background-color: #007fff;
+}
+
+.solution-icon-fresh {
+  background-color: #0ead69;
+}
+
+.solution-icon-fast {
+  background-color: #e8c547;
 }
