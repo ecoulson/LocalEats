@@ -2,4 +2,4 @@ FROM nginx:1.20.0-alpine
 
 COPY . /usr/share/nginx/html
 
-EXPOSE 8080
+EXPOSE 80
