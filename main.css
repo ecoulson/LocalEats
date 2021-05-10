@@ -13,20 +13,28 @@ header {
   height: 100vh;
   max-height: 100%;
   width: 100vw;
-  background-image: url("./public/header-bg.jpg");
+  background-image: url("public/header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 50px;
   background-position: center center;
+  clip-path: url(#mask);
 }
 
-.title {
+.logo {
   margin: 0 auto;
   display: block;
   padding-top: 10px;
   margin-bottom: 40px;
-  width: 100px;
+  width: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  font-family: "Merriweather", sans-serif;
 }
 
 .goal {
@@ -179,7 +187,7 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 #solution-1,
@@ -269,4 +277,24 @@ header {
   font-size: 20px;
   max-width: 100%;
   text-decoration: none;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #313131;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.footer-name {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: white;
 }
